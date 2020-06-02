@@ -21,4 +21,5 @@ EXPOSE 17442
 
 RUN chmod +x /usr/local/bin/run.sh
 
-CMD ["run.sh"]
+ENTRYPOINT [ "run.sh" ]
+CMD [ "node", "app.js" ]
