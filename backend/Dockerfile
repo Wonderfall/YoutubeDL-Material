@@ -9,7 +9,7 @@ apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testin
 
 WORKDIR /app
 
-COPY docker_run.sh /usr/local/bin/run.sh
+COPY run.sh /usr/local/bin/run.sh
 
 COPY package.json /app/
 
